@@ -1,0 +1,7 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+nav div > ul{
+  list-style-type: none;
+}

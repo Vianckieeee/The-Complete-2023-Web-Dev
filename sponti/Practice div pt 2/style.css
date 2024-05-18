@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.overall{
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: black;
+  width: 350px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+
+  display: inline-block;
+}
+.thumbnail{
+  height: 182px;
+  width: 350px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile-pic{
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  vertical-align: top;
+}
+.all-title{
+  display: inline-block;
+  margin-left: 15px;
+}
+.title{
+  font-size: 18px;
+  font-weight: bolder;
+  width: 300px;
+  line-height: 20px;
+  color: white;
+}
+.ploader{
+  font-size: 12px;
+  font: weight 400px;
+  margin-top: 10px;
+  color: rgb(170, 170, 170);
+}
+.video-stats{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(170, 170, 170);
+}

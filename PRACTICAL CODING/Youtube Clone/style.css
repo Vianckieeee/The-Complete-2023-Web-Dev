@@ -1,0 +1,186 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.burger-bar{
+  height: 30px;
+  margin-right: 10px;
+}
+.youtube-icon{
+  height: 30px;
+}
+.whole{
+  margin-left: 10px;
+}
+.youtube{
+  display: inline-block;
+  font-size: 30px;
+  font-family: Roboto;
+}
+.search-icon{
+  margin-top: 15px;
+  height: 10px;
+}
+.search-button{
+  
+}
+.menu-icon{
+  height: 30px;
+}
+.upload-icon{
+  height: 30px;
+}
+.notification-icon{
+  height: 30px;
+}
+.user-icon{
+  height: 40px;
+}
+.upper{
+  margin-top: 20px;
+
+}
+.ytvid-title{
+  font-size: 18px;
+  line-height: 35px;
+}
+.like-icon{
+  height: 20px;
+  margin-right: 5px;
+}
+.like-rating{
+  display: inline-block;
+  margin-right: 10px;
+}
+.dislike-icon{
+  height: 20px;
+  margin-right: 5px;
+}
+.dislike-rating{
+  display: inline-block;
+  margin-right: 10px;
+}
+.share-icon{
+  height: 20px;
+  margin-right: 5px;
+}
+.Share{
+  display: inline-block;
+  color: grey;
+  margin-right: 10px;
+}
+.save-icon{
+  height: 20px;
+  margin-right: 10px;
+}
+.more-icon{
+  height: 20px;
+}
+.espn-section{
+  vertical-align: top;
+}
+.espn-icon{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+  margin-top: 5px;
+}
+.espn-title{
+  display: inline-block;
+  font-weight: bolder;
+}
+.espn-stats{
+  display: inline-block;
+  margin-left: 10px;
+}
+.date{
+  color: grey;
+  margin-right:20px;
+}
+.check-icon{
+  height: 15px;
+  width: 15px;
+}
+.subscribe-button{
+  font-size: large;
+  font-weight: 600;
+  color: rgb(158, 155, 155);
+  background-color: rgb(226, 223, 223);
+  border: none;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.notification-m{
+  height: 20px;
+  
+}
+.video-description{
+  font: Arial;
+  font-size: 16px;
+  width: 1250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.up-next{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font: arial;
+}
+.vid-snip{
+  height: 100px;
+  object-fit: cover;
+}
+.vid-prev-one{
+  vertical-align: top;
+  
+}
+.yt-title{
+  display: inline-block;
+  font: arial;
+  font-size: 16px;
+  font-weight: bold;
+  width: 230px;
+  line-height: 18px;
+}
+
+.highlight-check{
+  height: 15px;
+
+  display: inline-block;
+}
+/* Note: Gumawa ako ng isang div ung vid-prevone sa loob nun ay ang image, after that nag gawa ako ng isa pang div para naman sa mga description sa tagiliran at para mai align ko sila sa right side. refer to html lines  76*/
+.vid-att{
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  margin-left: 5px;
+}
+.vid-whole{
+  margin-right: 50px;
+  width: 500px;
+}
+.comments{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sort-icon{
+  height: 30px;
+  margin-bottom: 20px;
+  display: block;
+}
+img[value="1"]{
+  height: 30px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+

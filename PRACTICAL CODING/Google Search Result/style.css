@@ -1,0 +1,113 @@
+/* body{
+  background-color: cornsilk;
+  font-family: 'Dancing Script', cursive;
+} */
+::placeholder{
+  color: black;
+}
+.google-icon-top{
+  height: 200px;
+  vertical-align: top;
+  display: block;
+  border: none;
+  border-width: 5px;
+}
+.search-bar{
+display: block;
+margin-bottom: 15px;
+}
+.mic{
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin-bottom: 15px;
+  object-fit: cover;
+  object-position: center;
+}
+.search{
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+.search-button{
+  background-color: #3c78da;
+  border: none;
+  cursor: pointer;
+  
+}
+.search-button:active{
+  background-color: #5f95ec;
+}
+.search-button:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.menu{
+  height: 30px;
+  width: 30px;
+}
+.bell{
+  height: 30px;
+  width: 30px;
+}
+.profile{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.third-layer{
+  margin-top: 10px;
+}
+.user-image{
+  height: 15px;
+  width: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+.world-image{
+  height: 15px;
+  width: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+.settings-image{
+  height: 15px;
+  width: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.left-one{
+  display: block;
+}
+.left-two{
+  display: block;
+}
+.left-three{
+  display: block;
+}
+.right-one{
+  display: block;
+}
+.right-two{
+  display: block;
+}
+.right-three{
+  display: block;
+}
+.left-side{
+  display: inline-block;
+}
+.right-side{
+  display: inline-block;
+}
+.google{
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'PT Sans', sans-serif;
+}

@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.whole{
+  background-color: rgb(65, 63, 63);
+  display: inline-block;
+}
+.vid-picture{
+  object-fit: cover;
+  object-position: center;
+  height: 250px;
+  width: 350px;
+  border-radius: 20px;
+}
+.profile{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  margin-left: 5px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.video-info{
+  display: inline-block;
+}
+.vid-title{
+  font-style: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  width: 230px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  vertical-align: top;
+}
+.dipesh{
+  color: grey;
+  font-style: arial;
+  font-size: 15px;
+}

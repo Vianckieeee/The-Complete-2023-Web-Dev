@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Combining CSS Selectors</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<!-- NOTE: Different ways on how to combine selector
+  first is group. 
+
+  Group = Apply to both selectors
+  syntax: selector, selector{
+    color:blueviolet;
+  }
+
+  Child = Apply to direct child of left side
+  syntax: selector > selector {
+    color: firebrick;
+  }
+
+  Descendant = Apply to a descendente of left side
+  syntax: selector selector {
+    color: darkgreen;
+  }
+
+  Chaining = Apply where ALL selectors are true
+  syntax: selectorselector{
+    color: seagreen;
+  }
+  example: NOTE: NO SPACE
+  h1#big.brother
+
+  Combining Combiners = 
+  -->
+
+<!-- Don't change any of the HTML code! -->
+
+<body>
+  <h1>To Do List</h1>
+  <h2>Monday</h2>
+  <div class="box">
+    <p class="done">Do these things today!</p>
+    <ul class="list">
+      <li>Wash Clothes</li>
+      <li class="done">Read</li>
+      <li class="done">Maths Questions</li>
+    </ul>
+  </div>
+
+  <ul>
+    <p class="done">Other items</p>
+  </ul>
+  <p>The best preparation for tomorrow is doing your best today.</p>
+  
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+
+    .red-circle{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-color: red;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+
+    }
+
+    .blue-box{
+      height: 300px;
+      width: 500px;
+      background-color: blue;
+      position: relative;
+      top: 200px;
+      left: 200px;
+    }
+  </style>
+</head>
+<!-- NOTE!!!
+  Static Postioning
+  html Default flow
+
+  Relative POsitioning
+  Position relative to default position
+
+  Absolute Positioning
+  Position relative to nearest positioned ancestor or top left corner of webpage if no ancestor.
+  Kapag may ancestor ito, dapat naka set din ang position ng ancestor to position:relative, tapos ung mismong div or object is naka absolute. z-index naman kung ano ang nasa likod na picture or kung ano ang nasa harap. 
+
+  fixed positioning
+  Position relative to top left corner of browser window dsya aalis sa top left ng window kahit na mag scroll ka
+-->
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>
